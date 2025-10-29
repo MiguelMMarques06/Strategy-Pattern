@@ -1,3 +1,11 @@
+package br.padroes.strategy.app;
+
+import br.padroes.strategy.strategy.MediaStrategy;
+import br.padroes.strategy.strategy.Aritmetica;
+import br.padroes.strategy.strategy.Geometrica;
+import br.padroes.strategy.model.Disciplina;
+
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("=== SISTEMA DE CÁLCULO DE MÉDIAS - PADRÃO STRATEGY ===\n");

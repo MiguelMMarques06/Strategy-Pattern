@@ -1,3 +1,5 @@
+package br.padroes.strategy.strategy;
+
 public class Geometrica implements MediaStrategy {
     @Override
     public double calcularMedia(double p1, double p2) {

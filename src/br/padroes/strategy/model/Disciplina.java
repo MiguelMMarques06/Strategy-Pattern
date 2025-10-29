@@ -1,3 +1,6 @@
+package br.padroes.strategy.model;
+import br.padroes.strategy.strategy.MediaStrategy;
+
 public class Disciplina {
     private String nome;
     private double p1;
